@@ -18,7 +18,7 @@ gem "integration", "<= 0.1.0"
 gem "rubystats", ">= 0.2.5"
 
 # APIs
-gem "garb", "< 0.9.2", require: false # API changes at this version
+gem "garb", ">= 0.9.1", "< 0.9.2", require: false # API changes at this version
 
 platform :ruby do
   gem "jekyll", "~> 2.5.3"
