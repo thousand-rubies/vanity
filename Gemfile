@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gemspec development_group: :test
 
 # Frameworks
-gem "rack"
+gem "rack", ">= 2.2.6.3"
 
 # Persistence
 gem "mongo", "~> 2.1"
