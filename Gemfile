@@ -32,7 +32,7 @@ end
 
 group :development do
   gem "rake"
-  gem "RedCloth"
+  gem "RedCloth", ">= 4.3.3"
   gem "yard"
 
   gem "rubocop", "~> 1.25.1" # Lock for Ruby 2.5
