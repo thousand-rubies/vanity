@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gemspec development_group: :test
 
 # Frameworks
-gem "rack"
+gem "rack", ">= 2.2.8.1"
 
 # Persistence
 gem "mongo", "~> 2.1"
@@ -33,7 +33,7 @@ end
 group :development do
   gem "rake"
   gem "RedCloth"
-  gem "yard"
+  gem "yard", ">= 0.9.35"
 
   gem "rubocop", "~> 1.25.1" # Lock for Ruby 2.5
   gem "rubocop-ast", "~> 1.15.2"  # Lock for Ruby 2.5
