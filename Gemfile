@@ -35,8 +35,8 @@ group :development do
   gem "RedCloth"
   gem "yard"
 
-  gem "rubocop", "~> 1.25.1" # Lock for Ruby 2.5
+  gem "rubocop", "~> 1.26.0" # Lock for Ruby 2.5
   gem "rubocop-ast", "~> 1.15.2"  # Lock for Ruby 2.5
-  gem "rubocop-performance"
-  gem "rubocop-rspec"
+  gem "rubocop-performance", ">= 1.13.3"
+  gem "rubocop-rspec", ">= 2.9.0"
 end
