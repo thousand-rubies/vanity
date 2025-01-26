@@ -26,7 +26,7 @@ platform :ruby do
 end
 
 platform :jruby do
-  gem "activerecord-jdbc-adapter"
+  gem "activerecord-jdbc-adapter", ">= 71.0"
   gem "jdbc-sqlite3"
 end
 
