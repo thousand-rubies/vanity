@@ -38,5 +38,5 @@ group :development do
   gem "rubocop", "~> 1.25.1" # Lock for Ruby 2.5
   gem "rubocop-ast", "~> 1.15.2"  # Lock for Ruby 2.5
   gem "rubocop-performance"
-  gem "rubocop-rspec"
+  gem "rubocop-rspec", ">= 3.5.0"
 end
